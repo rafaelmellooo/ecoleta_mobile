@@ -8,10 +8,16 @@ export default StyleSheet.create({
     paddingTop: 20 + Constants.statusBarHeight,
   },
 
+  welcome: {
+    flexDirection: 'row',
+    marginTop: 24,
+    alignItems: 'center',
+  },
+
   title: {
     fontSize: 20,
     fontFamily: 'Ubuntu_700Bold',
-    marginTop: 24,
+    marginLeft: 8,
   },
 
   description: {
